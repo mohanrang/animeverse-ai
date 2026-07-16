@@ -3,16 +3,27 @@ import { TRENDING_ANIME_QUERY } from "./queries";
 
 export interface Anime {
   id: number;
+
   title: {
     romaji: string;
     english: string | null;
   };
+
+  description: string | null;
+
+  bannerImage: string | null;
+
   coverImage: {
     large: string;
+    extraLarge: string;
   };
-  episodes: number | null;
+
   averageScore: number | null;
+
+  episodes: number | null;
+
   status: string;
+
   genres: string[];
 }
 

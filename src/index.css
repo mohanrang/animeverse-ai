@@ -128,3 +128,12 @@
     @apply font-sans;
     }
 }
+
+body {
+  background: #09090b;
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
