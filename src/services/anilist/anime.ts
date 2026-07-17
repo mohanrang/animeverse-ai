@@ -1,5 +1,5 @@
 import { anilistClient } from "./client";
-import { TRENDING_ANIME_QUERY } from "./queries";
+import { TRENDING_ANIME_QUERY } from "./queries/trendingAnime";
 
 export interface Anime {
   id: number;
