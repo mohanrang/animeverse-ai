@@ -1,4 +1,4 @@
-import AnimeGrid from "@/components/anime/AnimeGrid";
+import AnimeCarousel from "@/components/anime/AnimeCarousel";
 import { useTrendingAnime } from "@/features/anime/hooks/useTrendingAnime";
 
 export default function TrendingSection() {
@@ -50,7 +50,7 @@ export default function TrendingSection() {
   </button>
 </div>
 
-<AnimeGrid animeList={data ?? []} />
+<AnimeCarousel animeList={data ?? []} />
 
 </section>
   );
